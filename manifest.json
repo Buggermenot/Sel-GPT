@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Sel GPT",
+  "version": "2.0",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "gemini.js"
+  }
+}
